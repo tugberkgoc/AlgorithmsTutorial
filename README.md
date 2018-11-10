@@ -1,38 +1,15 @@
-# A Very Big Sum
+# HackerRank Algorithms And Data Structures
 
-HackerRank Algorithms Number : 003
+These are algorithm which also includes their time complexity result in code.
 
-## Problem
+### Cloning
 
-Calculate and print the sum of the elements in an array, keeping in mind that some of those integers may be quite large.
-
-### Function Description
-
-Complete the aVeryBigSum function in the editor below. It must return the sum of all array elements.
-
-aVeryBigSum has the following parameter(s):
-
-* ar: an array of integers .
-
-### Input Format
-
-The first line of the input consists of an integer *n*. 
-The next line contains *n* space-separated integers contained in the array.
-
-### Output Format
-
-Print the integer sum of the elements in the array.
-
-
-### Constraints
-
-*1<n<10*
+If you want to participate and contribute, clone the repository.
 
 ```
-Give examples
+git clone https://github.com/tugberkgoc/hacker-rank-tutorials.git
 ```
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
 * [Maven](https://maven.apache.org/) - Dependency Management
 * [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
 
@@ -46,7 +23,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Tugberk GOC** - *Initial work* - [GitHub Profile](https://github.com/tugberkgoc)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
