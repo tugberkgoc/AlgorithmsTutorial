@@ -1,4 +1,7 @@
 # HackerRank Algorithms And Data Structures
+[![GitHub release](https://img.shields.io/github/release/Homebrew/brew.svg)](https://github.com/tugberkgoc/hacker-rank-tutorials/releases)
+<!--[![Travis](https://img.shields.io/travis/Homebrew/brew.svg)](https://travis-ci.org/Homebrew/brew)-->
+<!--[![Codecov](https://img.shields.io/codecov/c/github/Homebrew/brew.svg)](https://codecov.io/gh/Homebrew/brew)-->
 
 These are algorithm which also includes their time complexity result in code.
 
