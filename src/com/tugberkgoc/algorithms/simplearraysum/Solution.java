@@ -23,9 +23,9 @@ public class Solution {
 
 	public static void main(String[] args) throws IOException {
 
-		BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter("src/com/tugberkgoc/QA002SimpleArraySum/output/output.txt")); // System.getenv("OUTPUT_PATH")
+		BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter("src/com/tugberkgoc/simplearraysum/output/output.txt")); // System.getenv("OUTPUT_PATH")
 
-		final Scanner scanner = new Scanner(new File("src/com/tugberkgoc/QA002SimpleArraySum/input/input.txt"));
+		final Scanner scanner = new Scanner(new File("src/com/tugberkgoc/simplearraysum/input/input.txt"));
 
 		int arCount = Integer.parseInt(scanner.nextLine().trim());
 
