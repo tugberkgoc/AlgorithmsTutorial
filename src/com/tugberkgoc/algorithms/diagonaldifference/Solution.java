@@ -5,8 +5,16 @@ import java.util.*;
 
 public class Solution {
 
+  static Long millisecondsSince(Long start) {
+    return System.currentTimeMillis() - start;
+  }
+
   // Complete the diagonalDifference function below.
   static int diagonalDifference(int[][] arr) {
+
+    Long start = System.currentTimeMillis();
+    System.out.println("First Algorithm Started.");
+
     int righttoleftdia = 0;
     int lefttorightdia = 0;
 
@@ -29,7 +37,28 @@ public class Solution {
       absoluteValue = lefttorightdia - righttoleftdia;
     }
 
+    System.out.println("First Algorithm ends: " + millisecondsSince(start));
+
     return absoluteValue;
+  }
+
+  static int diagonalDifference2(int[][] arr) {
+
+    Long start = System.currentTimeMillis();
+    System.out.println("Second Algorithm Started.");
+
+    int n = arr[0].length;
+    int absValue = 0;
+    int j = n-1;
+
+    for(int i=0; i<n; i++) {
+      absValue = arr[i][i] - arr[j][i] + absValue;
+      j--;
+    }
+
+    System.out.println("Second Algorithm ends: " + millisecondsSince(start));
+
+    return Math.abs(absValue);
   }
 
   // private static final Scanner scanner = new Scanner(System.in);
@@ -55,6 +84,8 @@ public class Solution {
     }
 
     int result = diagonalDifference(arr);
+
+    int result2 = diagonalDifference2(arr);
 
     bufferedWriter.write(String.valueOf(result));
     bufferedWriter.newLine();
